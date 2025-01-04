@@ -146,11 +146,7 @@ selected_training_df = feature_selection(cleaned_train_df)
 selected_testing_df = feature_selection(cleaned_test_df)
 
 
-# ### Feature Engineering
-# 
-
-# In[14]:
-
+#### Feature Engineering
 
 from sklearn.preprocessing import StandardScaler
 
