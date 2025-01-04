@@ -184,10 +184,6 @@ y_test = scaled_testing_df['overall']
 
 X_train.columns.tolist()
 
-
-# In[19]:
-
-
 """
 This function extracts and returns column names from the list 'categorical_variables'
 that are present in the 'df' DataFrame.
