@@ -119,8 +119,6 @@ def feature_selection(df):
     
     return df[selected_features]
 # In[13]:
-
-
 # Select features for the training dataset
 selected_training_df = feature_selection(cleaned_train_df) 
 
