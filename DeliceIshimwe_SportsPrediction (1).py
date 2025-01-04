@@ -129,8 +129,6 @@ def conduct_EDA(df):
         plt.ylabel('Count')
         plt.show()
         
-# In[10]:
-
 # Conduct EDA for cleaned train dataset
 conduct_EDA(cleaned_train_df)
 
