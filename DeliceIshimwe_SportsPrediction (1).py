@@ -51,10 +51,6 @@ cleaned_train_df.shape
 # Display the shape of the cleaned DataFrame
 cleaned_test_df.shape
 
-
-# In[9]:
-
-
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
