@@ -45,10 +45,6 @@ cleaned_train_df.head()
 # Display the first 5 rows of the cleaned DataFrame
 cleaned_test_df.head()
 
-
-# In[7]:
-
-
 # Display the shape of the cleaned DataFrame
 cleaned_train_df.shape
 
