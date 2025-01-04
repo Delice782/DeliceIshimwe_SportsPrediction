@@ -234,8 +234,7 @@ selected_features = choose_correlated_features(selected_training_df, target='ove
 scaled_training_df, scaled_testing_df = scale_features(selected_training_df, selected_testing_df, selected_features)
 
 
-# ### Training Models
-# 
+#### Training Models
 
 # In[17]:
 
