@@ -378,8 +378,6 @@ for name, model in models:
 # ### Testing and Evaluation
 # 
 
-# In[ ]:
-
 
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from xgboost import XGBRegressor
