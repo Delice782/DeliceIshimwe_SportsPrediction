@@ -142,7 +142,6 @@ conduct_EDA(cleaned_test_df)
 
 # In[12]:
 
-
 """
 This Function takes df dataframe as parameter and 
 it removes useless variables and returns the DataFrame with the remaining columns.
