@@ -137,7 +137,6 @@ conduct_EDA(cleaned_train_df)
 
 # In[11]:
 
-
 # Conduct EDA for cleaned test dataset
 conduct_EDA(cleaned_test_df)
 
