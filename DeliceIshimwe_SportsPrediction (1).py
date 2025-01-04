@@ -53,14 +53,10 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 """
-This method performs Exploratory Data Analysis on df dataFrame.
-It takes df dataFrame as a parameter which contains data to be analyzed.
-It focus on numeric columns through displaying dataset information and sumamry statistics, 
-providing correlation heatmap for visualizing the relationships between pair of variables, 
-and  creates scatterplot matrix for visualizing relationships between pairs across multiple variables.
-It also generates the distribution of the target variable 'overall' rating column and
-visualize the count of players by their preferred foot, if they are present. 
-This illustrates how ratings are distributed among players.
+This method performs Exploratory Data Analysis on df dataFrame. It takes df dataFrame as a parameter which contains data to be analyzed.
+It focus on numeric columns through displaying dataset information and sumamry statistics, providing correlation heatmap for visualizing the relationships between pair of variables, 
+and  creates scatterplot matrix for visualizing relationships between pairs across multiple variables. It also generates the distribution of the target variable 'overall' rating column and
+visualize the count of players by their preferred foot, if they are present. This illustrates how ratings are distributed among players.
 """
 
 def conduct_EDA(df):
@@ -103,8 +99,7 @@ conduct_EDA(cleaned_train_df)
 conduct_EDA(cleaned_test_df)
 
 """
-This Function takes df dataframe as parameter and 
-it removes useless variables and returns the DataFrame with the remaining columns.
+This Function takes df dataframe as parameter and it removes useless variables and returns the DataFrame with the remaining columns.
 """
 
 def feature_selection(df):
@@ -127,8 +122,6 @@ def feature_selection(df):
     selected_features = df.columns.tolist() 
     
     return df[selected_features]
-
-
 # In[13]:
 
 
