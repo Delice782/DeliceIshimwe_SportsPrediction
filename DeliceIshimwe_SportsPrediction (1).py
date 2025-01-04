@@ -52,10 +52,6 @@ cleaned_test_df.head()
 # Display the shape of the cleaned DataFrame
 cleaned_train_df.shape
 
-
-# In[8]:
-
-
 # Display the shape of the cleaned DataFrame
 cleaned_test_df.shape
 
