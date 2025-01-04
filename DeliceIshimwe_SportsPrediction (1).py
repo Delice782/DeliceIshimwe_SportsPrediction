@@ -325,8 +325,6 @@ def identify_categorical_columns(df, threshold=0.9):
             categorical_columns.append(column)
     return categorical_columns
 
-
-
 # In[23]:
 
 
