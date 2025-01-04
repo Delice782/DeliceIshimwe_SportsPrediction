@@ -129,8 +129,7 @@ def conduct_EDA(df):
         plt.xlabel('Preferred Foot')
         plt.ylabel('Count')
         plt.show()
-
-
+        
 # In[10]:
 
 
