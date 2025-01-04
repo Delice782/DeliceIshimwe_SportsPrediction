@@ -243,9 +243,6 @@ def reduce_unique_categ_values(df, categorical_variables, threshold=100):
                 df[column] = df[column].where(df[column].isin(categ_values_to_keep), 'Other')
     return df
 
-# In[22]:
-
-
 """
 This method identifies and returns a list of column names from DataFrame 'df'
 that are categorical basing on their data type or when they are categorical and
