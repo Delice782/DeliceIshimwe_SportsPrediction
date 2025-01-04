@@ -374,7 +374,6 @@ X_test_encoded = one_hot_encode_dataframe(X_test)
 
 # In[25]:
 
-
 X_train_encoded
 
 
