@@ -1,4 +1,6 @@
 import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
@@ -13,8 +15,6 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 Function that loads CSV files, cleans the data: removing duplicates and filling missing values. 
 It takes dataset_address and encoding as parameters and returns a cleaned dataframe.
 """
-
-import pandas as pd
 
 def load_clean_dataset(dataset_address, encoding='utf-8'):
     
@@ -47,10 +47,6 @@ cleaned_train_df.shape
 
 # Display the shape of the cleaned DataFrame
 cleaned_test_df.shape
-
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 """
 This method performs Exploratory Data Analysis on df dataFrame. It takes df dataFrame as a parameter which contains data to be analyzed.
