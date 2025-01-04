@@ -310,8 +310,6 @@ def reduce_unique_categ_values(df, categorical_variables, threshold=100):
                 df[column] = df[column].where(df[column].isin(categ_values_to_keep), 'Other')
     return df
 
-
-
 # In[22]:
 
 
