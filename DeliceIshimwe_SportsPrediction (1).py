@@ -42,10 +42,6 @@ cleaned_test_df = load_clean_dataset(testing_dataset)
 # Display the first 5 rows of the cleaned DataFrame
 cleaned_train_df.head()
 
-
-# In[6]:
-
-
 # Display the first 5 rows of the cleaned DataFrame
 cleaned_test_df.head()
 
