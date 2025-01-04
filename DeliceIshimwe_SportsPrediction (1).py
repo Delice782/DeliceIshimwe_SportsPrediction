@@ -113,6 +113,7 @@ conduct_EDA(cleaned_test_df)
 This Function takes df dataframe as parameter and 
 it removes useless variables and returns the DataFrame with the remaining columns.
 """
+
 def feature_selection(df):
     print("Original columns:")
     print(df.columns)
