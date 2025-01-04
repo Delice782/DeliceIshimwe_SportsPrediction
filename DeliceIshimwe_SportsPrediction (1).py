@@ -160,8 +160,6 @@ def choose_correlated_features(df, target='overall', threshold=0.2):
     
     return selected_features
 
-# In[15]:
-
 from sklearn.preprocessing import StandardScaler
 
 """
