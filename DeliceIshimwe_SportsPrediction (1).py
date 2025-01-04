@@ -413,16 +413,3 @@ grad_boost_mse = mean_squared_error(y_test, grad_boost_predictions)
 print(f"Random Forest: R^2 = {rand_forest_r2:.4f}, MSE = {rand_forest_mse:.4f}")
 print(f"XGBoost: R^2 = {xgb_r2:.4f}, MSE = {xgb_mse:.4f}")
 print(f"Gradient Boosting: R^2 = {grad_boost_r2:.4f}, MSE = {grad_boost_mse:.4f}")
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
