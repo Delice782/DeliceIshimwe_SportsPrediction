@@ -33,7 +33,7 @@ def load_clean_dataset(dataset_address, encoding='utf-8'):
     
     return df
 
-training_dataset ="C:\\Users\\user\\Downloads\\male_players (legacy).csv"
+training_dataset = "C:\\Users\\user\\Downloads\\male_players (legacy).csv"
 testing_dataset = "C:\\Users\\user\\Downloads\\players_22 (1).csv"
 
 cleaned_train_df = load_clean_dataset(training_dataset)
