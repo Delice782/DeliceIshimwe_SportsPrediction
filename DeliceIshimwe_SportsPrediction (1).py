@@ -205,11 +205,7 @@ def find_categ_columns(df):
             new_categ_columns.append(column)
             
     return new_categ_columns
-            
-
-
-# In[20]:
-
+        
 new_columns_train = find_categ_columns(X_train)
 new_columns_train
 
