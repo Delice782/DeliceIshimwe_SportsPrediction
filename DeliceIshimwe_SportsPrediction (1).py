@@ -10,7 +10,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 #### Data Preprocessing 
 
 """
-This function loads CSV files, cleans the data: removing duplicates and filling missing values. 
+Function that loads CSV files, cleans the data: removing duplicates and filling missing values. 
 It takes dataset_address and encoding as parameters and returns a cleaned dataframe.
 """
 
