@@ -182,10 +182,6 @@ y_train = scaled_training_df['overall']
 X_test = scaled_testing_df.drop('overall', axis=1) 
 y_test = scaled_testing_df['overall'] 
 
-
-# In[18]:
-
-
 X_train.columns.tolist()
 
 
