@@ -227,7 +227,6 @@ def scale_features(train_df, test_df, features):
 
 # In[16]:
 
-
 # Picking features correlated with 'overall' rating
 selected_features = choose_correlated_features(selected_training_df, target='overall', threshold=0.2)
 
