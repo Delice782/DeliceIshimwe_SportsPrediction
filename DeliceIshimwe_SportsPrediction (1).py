@@ -209,10 +209,6 @@ def find_categ_columns(df):
 new_columns_train = find_categ_columns(X_train)
 new_columns_train
 
-
-# In[21]:
-
-
 import pandas as pd
 from sklearn.preprocessing import OneHotEncoder
 
