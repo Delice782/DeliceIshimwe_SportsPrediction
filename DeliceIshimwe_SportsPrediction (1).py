@@ -225,7 +225,6 @@ def scale_features(train_df, test_df, features):
     
     return scaled_training_df, scaled_testing_df
 
-
 # In[16]:
 
 
