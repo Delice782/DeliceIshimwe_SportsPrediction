@@ -283,7 +283,6 @@ def find_categ_columns(df):
 
 # In[20]:
 
-
 new_columns_train = find_categ_columns(X_train)
 new_columns_train
 
