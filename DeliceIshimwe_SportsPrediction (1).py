@@ -269,36 +269,17 @@ def one_hot_encode_dataframe(df, max_categories=100):
     
     return df_encoded
 
-
-# In[24]:
-
-
 # Applying one-hot encoding
 X_train_encoded = one_hot_encode_dataframe(X_train)
 X_test_encoded = one_hot_encode_dataframe(X_test)
 
-
-# In[25]:
-
 X_train_encoded
 
-
-# In[26]:
-
-
 X_test_encoded
-
-
-# In[27]:
-
 
 # Display the shape of the encoded training dataFrame
 print(X_train_encoded.shape)
 print(y_train.shape)
-
-
-# In[ ]:
-
 
 from sklearn.model_selection import cross_val_score
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
