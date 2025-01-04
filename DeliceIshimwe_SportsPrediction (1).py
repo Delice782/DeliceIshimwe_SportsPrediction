@@ -131,7 +131,6 @@ def conduct_EDA(df):
         
 # In[10]:
 
-
 # Conduct EDA for cleaned train dataset
 conduct_EDA(cleaned_train_df)
 
