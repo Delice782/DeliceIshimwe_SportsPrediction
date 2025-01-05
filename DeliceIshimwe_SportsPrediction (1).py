@@ -9,7 +9,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
-#### Data Preprocessing 
+#### Data Preprocessing
 
 """
 Function that loads CSV files, cleans the data: removing duplicates and filling missing values. 
